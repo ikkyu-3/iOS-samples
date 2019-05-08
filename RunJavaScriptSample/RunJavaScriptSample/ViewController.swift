@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         webView.load(myRequest)
     }
 
-    // ボタンをタップした時にwebviewの関数を実行する
+    // ボタンをタップした時にwebviewで表示されているページの関数を実行します
     @IBAction func tapRunJavaScriptButton(_ sender: Any) {
         webView.evaluateJavaScript("hoge(`test`)", completionHandler: nil)
     }
