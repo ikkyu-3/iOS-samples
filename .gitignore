@@ -69,3 +69,5 @@ fastlane/test_output
 
 # Node.js
 *node_modules/
+
+*.DS_Store
