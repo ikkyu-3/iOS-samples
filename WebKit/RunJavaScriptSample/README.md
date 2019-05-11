@@ -1,5 +1,5 @@
 
-# Run JavaScript from SampleApp
+# Run JavaScript SampleApp
 
 WKWebView上でJavaScriptを実行させるサンプルアプリ
 
