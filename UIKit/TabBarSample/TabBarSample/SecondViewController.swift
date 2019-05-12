@@ -8,8 +8,9 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class SecondViewController: CustomViewController {
     override func viewDidLoad() {
-        super.viewDidLoad()
+        super.viewDidLoad()        
+        name = "SecondViewController"
     }
 }

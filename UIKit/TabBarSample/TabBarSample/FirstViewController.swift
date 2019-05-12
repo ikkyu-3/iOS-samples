@@ -8,8 +8,10 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class FirstViewController: CustomViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        name = "FirstViewController"
     }
 }

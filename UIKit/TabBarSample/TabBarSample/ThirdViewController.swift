@@ -8,8 +8,9 @@
 
 import UIKit
 
-class ThirdViewController: UIViewController {
+class ThirdViewController: CustomViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
+        name = "ThirdViewController"
     }
 }

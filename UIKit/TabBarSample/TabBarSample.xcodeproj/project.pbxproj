@@ -15,6 +15,7 @@
 		9C039EFB2286C2BB0013D2BF /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C039EFA2286C2BB0013D2BF /* FirstViewController.swift */; };
 		9C039EFD2286C2D40013D2BF /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C039EFC2286C2D40013D2BF /* SecondViewController.swift */; };
 		9C039EFF2286C2EF0013D2BF /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C039EFE2286C2EF0013D2BF /* ThirdViewController.swift */; };
+		9C3CD6552287FBF600DAC41E /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3CD6542287FBF600DAC41E /* CustomViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		9C039EFA2286C2BB0013D2BF /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		9C039EFC2286C2D40013D2BF /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		9C039EFE2286C2EF0013D2BF /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		9C3CD6542287FBF600DAC41E /* CustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				9C039EEF2286BEE10013D2BF /* LaunchScreen.storyboard */,
 				9C039EF22286BEE10013D2BF /* Info.plist */,
 				9C039EF82286C1580013D2BF /* TabBarController.swift */,
+				9C3CD6542287FBF600DAC41E /* CustomViewController.swift */,
 				9C039EFA2286C2BB0013D2BF /* FirstViewController.swift */,
 				9C039EFC2286C2D40013D2BF /* SecondViewController.swift */,
 				9C039EFE2286C2EF0013D2BF /* ThirdViewController.swift */,
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C039EFD2286C2D40013D2BF /* SecondViewController.swift in Sources */,
+				9C3CD6552287FBF600DAC41E /* CustomViewController.swift in Sources */,
 				9C039EFB2286C2BB0013D2BF /* FirstViewController.swift in Sources */,
 				9C039EFF2286C2EF0013D2BF /* ThirdViewController.swift in Sources */,
 				9C039EE72286BEE10013D2BF /* AppDelegate.swift in Sources */,
