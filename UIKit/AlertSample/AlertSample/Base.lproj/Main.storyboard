@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AlertSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iN3-ln-AHo">
+                                <rect key="frame" x="72" y="74" width="231" height="59"/>
+                                <color key="backgroundColor" red="0.16470588235294117" green="0.36078431372549019" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="59" id="jt5-vx-Ask"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="アラート表示"/>
+                                <connections>
+                                    <action selector="tapAlertButton1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BX8-sy-iFy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q6Q-p9-Tw7">
+                                <rect key="frame" x="72" y="181" width="231" height="59"/>
+                                <color key="backgroundColor" red="0.1647058824" green="0.36078431370000003" blue="0.66666666669999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="59" id="8Z3-th-0at"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="アラート表示"/>
+                                <connections>
+                                    <action selector="tapAlertButton2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vMb-Pn-hzh"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="デフォルト" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SmB-Rg-qaF">
+                                <rect key="frame" x="72" y="45" width="87" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="キャンセルボタン" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I7E-Ec-CO6">
+                                <rect key="frame" x="72" y="152" width="139" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="54v-cc-8AW">
+                                <rect key="frame" x="72" y="436" width="231" height="59"/>
+                                <color key="backgroundColor" red="0.1647058824" green="0.36078431370000003" blue="0.66666666669999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="アクションシート表示"/>
+                                <connections>
+                                    <action selector="tapActionSheetButton1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FFa-vA-Eb9"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="デフォルト" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tVN-iq-Ohj">
+                                <rect key="frame" x="72" y="407" width="87" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PNg-d4-TOs">
+                                <rect key="frame" x="72" y="288" width="231" height="59"/>
+                                <color key="backgroundColor" red="0.1647058824" green="0.36078431370000003" blue="0.66666666669999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="59" id="uid-GO-W6a"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="アラート表示"/>
+                                <connections>
+                                    <action selector="tapAlertButton3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zfp-Ce-U3Z"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Text入力有" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zjc-Lx-2W7">
+                                <rect key="frame" x="72" y="259" width="84" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="tVN-iq-Ohj" firstAttribute="top" secondItem="PNg-d4-TOs" secondAttribute="bottom" constant="60" id="1Or-z0-4r8"/>
+                            <constraint firstItem="Q6Q-p9-Tw7" firstAttribute="top" secondItem="I7E-Ec-CO6" secondAttribute="bottom" constant="8" symbolic="YES" id="4UP-cR-QgU"/>
+                            <constraint firstItem="Zjc-Lx-2W7" firstAttribute="leading" secondItem="PNg-d4-TOs" secondAttribute="leading" id="6dn-e5-JlP"/>
+                            <constraint firstItem="Q6Q-p9-Tw7" firstAttribute="leading" secondItem="Zjc-Lx-2W7" secondAttribute="leading" id="7Mt-o1-RAQ"/>
+                            <constraint firstItem="iN3-ln-AHo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7mb-sx-Eyd"/>
+                            <constraint firstItem="SmB-Rg-qaF" firstAttribute="leading" secondItem="iN3-ln-AHo" secondAttribute="leading" id="ID5-CV-nwU"/>
+                            <constraint firstItem="iN3-ln-AHo" firstAttribute="top" secondItem="SmB-Rg-qaF" secondAttribute="bottom" constant="8" symbolic="YES" id="LcS-Xp-EJH"/>
+                            <constraint firstItem="iN3-ln-AHo" firstAttribute="trailing" secondItem="Q6Q-p9-Tw7" secondAttribute="trailing" id="NXH-EN-rOX"/>
+                            <constraint firstItem="iN3-ln-AHo" firstAttribute="leading" secondItem="I7E-Ec-CO6" secondAttribute="leading" id="PDb-1c-5ka"/>
+                            <constraint firstItem="I7E-Ec-CO6" firstAttribute="leading" secondItem="Q6Q-p9-Tw7" secondAttribute="leading" id="Ugp-38-JjH"/>
+                            <constraint firstItem="54v-cc-8AW" firstAttribute="top" secondItem="tVN-iq-Ohj" secondAttribute="bottom" constant="8" symbolic="YES" id="at5-5S-dam"/>
+                            <constraint firstItem="Q6Q-p9-Tw7" firstAttribute="trailing" secondItem="PNg-d4-TOs" secondAttribute="trailing" id="bLt-du-DoE"/>
+                            <constraint firstItem="Zjc-Lx-2W7" firstAttribute="top" secondItem="Q6Q-p9-Tw7" secondAttribute="bottom" constant="19" id="c05-wm-5RA"/>
+                            <constraint firstItem="SmB-Rg-qaF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="g2d-y1-atC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="54v-cc-8AW" secondAttribute="bottom" constant="172" id="hZV-6f-msb"/>
+                            <constraint firstItem="PNg-d4-TOs" firstAttribute="top" secondItem="Zjc-Lx-2W7" secondAttribute="bottom" constant="8" symbolic="YES" id="ixi-Tv-9VB"/>
+                            <constraint firstItem="PNg-d4-TOs" firstAttribute="trailing" secondItem="54v-cc-8AW" secondAttribute="trailing" id="kpy-xj-5EB"/>
+                            <constraint firstItem="SmB-Rg-qaF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="72" id="lOv-qa-Je8"/>
+                            <constraint firstItem="PNg-d4-TOs" firstAttribute="leading" secondItem="tVN-iq-Ohj" secondAttribute="leading" id="ojX-Mh-U1X"/>
+                            <constraint firstItem="I7E-Ec-CO6" firstAttribute="top" secondItem="iN3-ln-AHo" secondAttribute="bottom" constant="19" id="ua1-XW-Y8v"/>
+                            <constraint firstItem="tVN-iq-Ohj" firstAttribute="leading" secondItem="54v-cc-8AW" secondAttribute="leading" id="zrB-i0-GxF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="138.40000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+</document>
